@@ -31,12 +31,16 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/tv_counter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Hello World!"
+        android:textStyle="bold"
+        android:textSize="@dimen/counter_text"
+        android:text="@string/counter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ll_header" />
+        app:layout_constraintTop_toBottomOf="@+id/ll_header"
+        tools:text="Hello World!" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
